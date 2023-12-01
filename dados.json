@@ -1,0 +1,23 @@
+[
+    {
+      "id": "1",
+      "nome": "Massagem Terapêutica",
+      "descricao": "Desfrute de massagens relaxantes realizadas por terapeutas qualificados."
+    },
+    {
+      "id": "2",
+      "nome": "Tratamentos de Beleza",
+      "descricao": "Cuidados especiais para a sua beleza, incluindo tratamentos faciais e corporais."
+    },
+    {
+      "id": "3",
+      "nome": "Aromaterapia",
+      "descricao": "Experimente a terapia dos aromas para promover o equilíbrio e bem-estar."
+    },
+    {
+      "id": "4",
+      "nome": "Sessões de Yoga e Meditação",
+      "descricao": "Participe de aulas de yoga e meditação para uma experiência completa de relaxamento."
+    }
+  ]
+  

@@ -1,0 +1,71 @@
+**Documentação do Projeto Spa Relaxe Gostoso**
+
+**1. Introdução**
+O projeto "Spa Relaxe Gostoso" é um website para um spa fictício que oferece uma variedade de serviços, incluindo massagens terapêuticas, tratamentos de beleza, aromaterapia, yoga e meditação. Este documento fornece uma visão geral do código-fonte, a estrutura do projeto, e detalhes sobre as diferentes páginas e funcionalidades implementadas.
+
+**2. Estrutura do Projeto**
+O projeto está organizado em vários arquivos e diretórios, cada um com uma função específica. Aqui está a estrutura básica do projeto:
+
+- **Arquivos Principais:**
+  - `index.php`: Página inicial do site.
+  - `quem_somos.php`: Página "Quem Somos" do spa.
+  - `servicos.php`: Página que exibe os serviços oferecidos.
+  - `serv_um.php`, `serv_dois.php`, `serv_tres.php`: Páginas individuais para cada serviço.
+  - `contato.php`: Página de contato para os usuários se comunicarem com o spa.
+
+- **Diretórios:**
+  - `css`: Contém os arquivos CSS para estilizar as páginas.
+  - `images`: Armazena as imagens utilizadas nas páginas.
+  - `js`: Contém o arquivo JavaScript utilizado no projeto.
+
+- **Includes:**
+  - `header.php`: Cabeçalho com o título e navegação.
+  - `footer.php`: Rodapé com informações de direitos autorais.
+
+- **Configuração do Banco de Dados:**
+  - `config.php`: Arquivo para configuração e conexão com o banco de dados.
+  - `db.sql`: Script SQL para criar a tabela `services` no banco de dados.
+
+**3. Páginas Individuais**
+
+- **`index.php` (Página Inicial):**
+  - Apresenta uma visão geral do spa.
+  - Destaca os principais serviços oferecidos.
+  - Inclui imagens representativas e links para páginas específicas de serviços.
+
+- **`quem_somos.php` (Página "Quem Somos"):**
+  - Descreve a missão e valores do spa.
+  - Fornece informações sobre a equipe e compromisso com a qualidade.
+
+- **`servicos.php` (Página de Serviços):**
+  - Lista os serviços oferecidos, com links para páginas individuais de cada serviço.
+  - Permite aos usuários agendar serviços e exibe uma lista dos serviços existentes no banco de dados.
+
+- **Páginas de Serviços Individuais (`serv_um.php`, `serv_dois.php`, `serv_tres.php`):**
+  - Descrevem detalhadamente cada serviço, com imagens e informações relevantes.
+
+- **`contato.php` (Página de Contato):**
+  - Formulário de contato para os usuários se comunicarem com o spa.
+  - Lida com envio de mensagens e exibe mensagens de sucesso ou erro.
+
+**4. Banco de Dados**
+
+- **`db.sql`:**
+  - Contém um script SQL para criar a tabela `services` no banco de dados.
+  - A tabela `services` possui colunas para `id`, `nome` e `descricao`.
+
+- **`config.php`:**
+  - Configurações para conexão com o banco de dados.
+  - Inclui funções para inserir serviços no banco de dados.
+
+**5. Estilos e Layout**
+
+- **CSS (`style.css`, `style_home.css`, `style_quem_somos.css`, `style_servicos.css`, `style_serv_um.css`, `style_serv_dois.css`, `style_serv_tres.css`, `style_contato.css`):**
+  - Arquivos CSS fornecem estilos consistentes para todas as páginas.
+  - Utilização de estilos para melhorar a estética e a legibilidade.
+
+**6. JavaScript (`script.js`):**
+- `script.js` é um arquivo JavaScript simples que exibe uma mensagem no console quando a página é carregada.
+
+**7. Conclusão**
+Este documento fornece uma visão geral do projeto "Spa Relaxe Gostoso", descrevendo a estrutura do código-fonte, as páginas implementadas, o banco de dados e os estilos aplicados. Qualquer desenvolvedor que trabalhe neste projeto pode referenciar este documento para entender a organização e as funcionalidades implementadas.

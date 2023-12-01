@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,91 @@
+header {
+    background-color: #006633;
+    color: #eafce2;
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+body {
+    background-image: url(https://thumbs.dreamstime.com/z/escuro-fundo-desfocado-de-mulher-tomando-banho-flores-em-spa-relaxamento-no-banheiro-com-vista-da-selva-na-janela-199987423.jpg);   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;    
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+}
+main a {
+    text-decoration: none;
+    color: #000;
+}
+main a:hover {
+    color: #006633;
+}
+img {
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+.clearfix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ul {
+    list-style-type: none;
+}
+footer {
+    background-color: #006633;
+    color: #eafce2;
+    text-align: center;
+    padding: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
